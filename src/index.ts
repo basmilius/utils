@@ -10,6 +10,7 @@ export { default as formatTime } from './formatTime';
 export { default as isPointInPolygon } from './isPointInPolygon';
 export { default as isToday } from './isToday';
 export { default as openUrl } from './openUrl';
+export { default as viewTransition } from './viewTransition';
 export { default as waitFor } from './waitFor';
 
 export const MDASH = '—';
