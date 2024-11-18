@@ -1,6 +1,6 @@
 {
     "name": "@basmilius/utils",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Various utilities that are commonly used throughout personal projects.",
     "type": "module",
     "license": "MIT",
@@ -50,7 +50,7 @@
         "@types/luxon": "^3.4.2",
         "esbuild": "^0.24.0",
         "luxon": "^3.5.0",
-        "pinia": "^2.2.4",
+        "pinia": "^2.2.6",
         "tsc-alias": "^1.8.10",
         "typescript": "^5.6.3"
     },
