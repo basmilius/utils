@@ -1,6 +1,5 @@
-import { DateTime } from 'luxon';
+import type { DateTime } from 'luxon';
 
-export default function (dateTime: DateTime): boolean {
-    const today = DateTime.now();
+export default function (dateTime: DateTime, today: DateTime): boolean {
     return today.hasSame(dateTime, 'day');
 }

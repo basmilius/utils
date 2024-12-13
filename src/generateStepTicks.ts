@@ -1,7 +1,7 @@
-const STEP_TICK_SIZES = [1, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000] as const;
-const STEP_TICK_SMALL_SIZES = [.1, .5, ...STEP_TICK_SIZES];
-
 export default function (lower: number, upper: number, target: number = 5, isSmall?: boolean): number[] {
+    const STEP_TICK_SIZES = [1, 5, 10, 25, 50, 100, 250, 500, 1000, 2500, 5000, 10000] as const;
+    const STEP_TICK_SMALL_SIZES = [.1, .5, ...STEP_TICK_SIZES];
+
     const delta = upper - lower;
     const sizes = isSmall ? STEP_TICK_SMALL_SIZES : STEP_TICK_SIZES;
 
