@@ -27,7 +27,7 @@ function mulberry32(seed: number): Mulberry32 {
 
 export default mulberry32;
 
-type Mulberry32 = {
+export type Mulberry32 = {
     fork(): Mulberry32;
     next(): number;
     nextBetween(min: number, max: number): number;
