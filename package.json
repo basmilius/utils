@@ -47,12 +47,11 @@
         }
     },
     "devDependencies": {
+        "@types/bun": "^1.2.0",
         "@types/luxon": "^3.4.2",
-        "esbuild": "^0.24.2",
         "luxon": "^3.5.0",
-        "pinia": "^2.3.0",
-        "tsc-alias": "^1.8.10",
-        "typescript": "^5.7.3"
+        "oxc-transform": "^0.48.0",
+        "pinia": "^2.3.0"
     },
     "peerDependencies": {
         "luxon": "^3.5.0",
