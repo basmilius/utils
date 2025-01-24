@@ -21,13 +21,10 @@
         "pinia"
     ],
     "scripts": {
-        "build": "pnpm esbuild && pnpm gentypes",
-        "dev": "pnpm esbuild --watch",
-        "esbuild": "esbuild src/index.ts --bundle --sourcemap --external:luxon --external:pinia --platform=browser --target=esnext --format=esm --outfile=dist/utils.js",
-        "gentypes": "tsc && tsc-alias"
+        "build": "bun --bun build.ts"
     },
     "engines": {
-        "node": ">=22"
+        "node": ">=23"
     },
     "files": [
         "dist/*"
