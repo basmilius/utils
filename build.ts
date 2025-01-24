@@ -44,7 +44,7 @@ function generateTypesPlugin(): BunPlugin {
 }
 
 try {
-    const result = await build({
+    await build({
         entrypoints: ['src/index.ts'],
         root: 'src',
         outdir: 'dist',
