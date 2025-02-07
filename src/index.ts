@@ -1,3 +1,5 @@
+export type * from './types';
+
 export { default as clampWithStepPrecision } from './clampWithStepPrecision';
 export { default as countDecimals } from './countDecimals';
 export { default as defineStore } from './defineStore';
@@ -12,6 +14,7 @@ export { default as formatNumber } from './formatNumber';
 export { default as formatPercentage } from './formatPercentage';
 export { default as formatTime } from './formatTime';
 export { default as generateStepTicks } from './generateStepTicks';
+export { default as getPrototypeChain } from './getPrototypeChain';
 export { default as hexToRGB } from './hexToRGB';
 export { default as hslToHSV } from './hslToHSV';
 export { default as hslToRGB } from './hslToRGB';
@@ -27,6 +30,8 @@ export { default as rgbToHEX } from './rgbToHEX';
 export { default as rgbToHSL } from './rgbToHSL';
 export { default as rgbToHSV } from './rgbToHSV';
 export { default as roundStep } from './roundStep';
+export { default as setObjectMethod } from './setObjectMethod';
+export { default as setObjectValue } from './setObjectValue';
 export { default as viewTransition } from './viewTransition';
 export { default as waitFor } from './waitFor';
 
