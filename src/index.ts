@@ -32,4 +32,4 @@ export { default as waitFor } from './waitFor';
 
 export const MDASH = '—';
 export const NDASH = '–';
-export const NOOP = () => void 0;
+export const NOOP: Function = () => void 0;
