@@ -1,6 +1,6 @@
 {
     "name": "@basmilius/utils",
-    "version": "1.8.0",
+    "version": "1.9.0",
     "description": "Various utilities that are commonly used in personal projects.",
     "type": "module",
     "license": "MIT",
@@ -27,7 +27,8 @@
         "node": ">=23"
     },
     "files": [
-        "dist/*"
+        "dist",
+        "src"
     ],
     "publishConfig": {
         "access": "public",
@@ -44,11 +45,11 @@
         }
     },
     "devDependencies": {
-        "@types/bun": "^1.2.2",
+        "@types/bun": "^1.2.4",
         "@types/luxon": "^3.4.2",
         "luxon": "^3.5.0",
-        "oxc-transform": "^0.49.0",
-        "pinia": "^3.0.0"
+        "oxc-transform": "^0.56.0",
+        "pinia": "^3.0.1"
     },
     "peerDependencies": {
         "luxon": "^3.5.0",
