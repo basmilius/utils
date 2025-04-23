@@ -12,7 +12,7 @@
       },
       "peerDependencies": {
         "luxon": "^3.6.1",
-        "pinia": "^3.0.1",
+        "pinia": "^3.0.2",
       },
     },
   },

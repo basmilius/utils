@@ -1,6 +1,6 @@
 {
     "name": "@basmilius/utils",
-    "version": "1.13.0",
+    "version": "1.14.0",
     "description": "Various utilities that are commonly used in personal projects.",
     "type": "module",
     "license": "MIT",
@@ -53,6 +53,6 @@
     },
     "peerDependencies": {
         "luxon": "^3.6.1",
-        "pinia": "^3.0.1"
+        "pinia": "^3.0.2"
     }
 }

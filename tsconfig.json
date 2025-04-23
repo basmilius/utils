@@ -1,16 +1,17 @@
 {
     "compilerOptions": {
-        "target": "es2022",
+        "target": "esnext",
         "lib": [
             "dom",
-            "dom.iterable"
+            "dom.iterable",
+            "esnext"
         ],
         "allowJs": true,
         "skipLibCheck": true,
         "strict": false,
         "forceConsistentCasingInFileNames": true,
         "esModuleInterop": true,
-        "module": "es2022",
+        "module": "esnext",
         "moduleResolution": "bundler",
         "resolveJsonModule": false,
         "isolatedModules": true,
