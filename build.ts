@@ -12,10 +12,7 @@ try {
         splitting: false,
         format: 'esm',
         target: 'browser',
-        external: [
-            'luxon',
-            'pinia'
-        ],
+        packages: 'external',
         plugins: [
             generateDts()
         ]
